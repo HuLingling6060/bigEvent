@@ -17,6 +17,7 @@ $(function () {
 
   // 为上传按钮绑定点击事件
   $('#btnChooseImage').on('click', function () {
+    console.log(11);
     // 在点击时 用js 模拟点击 图片选择框
     $('#file').click()
   })
